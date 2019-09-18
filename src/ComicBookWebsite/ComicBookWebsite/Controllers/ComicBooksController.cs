@@ -7,6 +7,10 @@ using System.Web.Mvc;
 namespace ComicBookWebsite.Controllers
 {
     public class ComicBooksController : Controller
-    { 
+    {
+        public string Detail()
+        {
+            return "Hello front he comic book controller!";
+        }
     }
 }
