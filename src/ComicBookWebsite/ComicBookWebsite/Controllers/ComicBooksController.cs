@@ -13,7 +13,6 @@ namespace ComicBookWebsite.Controllers
             if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
             {
                 return Redirect("/");
-                return new RedirectResult("/");
             }
             return Content("Hello front he comic book controller!");
              
