@@ -9,13 +9,8 @@ namespace ComicBookWebsite.Controllers
     public class ComicBooksController : Controller
     {
         public ActionResult Detail()
-        {   
-            if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
-            {
-                return Redirect("/");
-            }
-            return Content("Hello front he comic book controller!");
-             
+        {
+            return View();
         }
     }
 }
